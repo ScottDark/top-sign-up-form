@@ -12,6 +12,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* Left container */
 }
 .container-fluid {
   min-height: 100vh;
@@ -49,4 +51,11 @@ html {
 
 .odinBackgroundImage {
   height: 100vh;
+}
+
+/* Right container */
+
+.headText {
+  padding-top: 10vh;
+  font-weight: bolder;
 }
