@@ -1,4 +1,11 @@
-body {
+@font-face {
+  font-family: norseBold;
+  src: url(./assets/fonts/Norse-Bold.otf);
+  font-weight: bold;
+}
+
+body,
+html {
   min-height: 100vh;
 }
 * {
@@ -11,13 +18,12 @@ body {
 }
 
 .overallContainer {
-  height: 100vh;
-  border: solid black 1px;
+  min-height: 100vh;
 }
 
 .odinBackground {
   height: 15vh;
-  width: 41.6vw;
+  width: 41vw;
   top: 20vh;
 }
 
@@ -30,4 +36,17 @@ body {
   width: auto;
   position: relative;
   left: 12vw;
+}
+
+.odinText {
+  font-family: norseBold;
+  font-size: 8rem;
+  color: white;
+  position: relative;
+  left: 20vw;
+  bottom: 15vh;
+}
+
+.odinBackgroundImage {
+  height: 100vh;
 }
