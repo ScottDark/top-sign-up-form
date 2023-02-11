@@ -14,3 +14,13 @@ body {
   height: 100vh;
   border: solid black 1px;
 }
+
+.odinBackground {
+  height: 15vh;
+  width: 41.6vw;
+  top: 20vh;
+}
+
+.leftContainer {
+  padding: 0px;
+}
