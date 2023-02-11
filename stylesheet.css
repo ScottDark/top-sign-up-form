@@ -67,3 +67,8 @@ html {
 .midContainer {
   background-color: lightgrey;
 }
+
+input,
+label {
+  max-width: 20vw;
+}
