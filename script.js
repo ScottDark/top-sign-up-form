@@ -1,9 +1,7 @@
-$(".createAccount").click(function () {
+$("form").on("submit", function (e) {
   if ($("#password").val() !== $("#confirmPassword").val()) {
+    e.preventDefault();
     $(".invalid-feedback").show();
-    $("form").on("submit", function (e) {
-      e.preventDefault();
-    });
   } else {
     $(".invalid-feedback").hide();
   }
