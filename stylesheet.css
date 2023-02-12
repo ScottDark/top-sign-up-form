@@ -67,8 +67,8 @@ html {
   max-height: 10vh;
 }
 
-.midContainer {
-  background-color: lightgrey;
+.col {
+  padding: 0px;
 }
 
 input,
