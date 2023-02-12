@@ -41,8 +41,10 @@
         <div class="rightContainer col-sm-7 col-sm-7 d-flex flex-column">
           <div class="headContainer row d-flex">
             <p class="headText">
-              This is not a real online service! You know you need something<br />
-              like this in your life to help you realize your deepest dreams.<br />
+              This is not a real online service! You know you need something
+              <br />
+              like this in your life to help you realize your deepest dreams.
+              <br />
               Sign up now to get started.
               <br />
               <br />
@@ -51,7 +53,9 @@
           </div>
 
           <div class="midContainer shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-            <form action="GET">
+            <h3>Let's do this!</h3>
+            <br />
+            <form action="GET" id="signUp">
               <div class="row">
                 <div class="col">
                   <label for="firstname" class="form-label">FIRST NAME</label>
@@ -61,8 +65,10 @@
                     class="form-control"
                   /><br />
 
-                  <label for="email " class="form-label">EMAIL</label><br />
-                  <input type="text" id="email" class="form-control" /><br />
+                  <label for="email " class="form-label">EMAIL</label>
+                  <br />
+                  <input type="text" id="email" class="form-control" />
+                  <br />
 
                   <label for="password " class="form-label">PASSWORD</label>
                   <input
@@ -74,7 +80,8 @@
 
                 <div class="col">
                   <label for="lastname" class="form-label">LAST NAME</label>
-                  <input type="text" id="lastName" class="form-control" /><br />
+                  <input type="text" id="lastName" class="form-control" />
+                  <br />
 
                   <label for="phonenumber " class="form-label"
                     >PHONE NUMBER</label
@@ -85,17 +92,13 @@
                     class="form-control"
                   /><br />
 
-                  <label
-                    for="confirmpassword "
-                    id="confirmPassword"
-                    class="form-label"
-                    type="password"
+                  <label for="confirmpassword " class="form-label"
                     >PASSWORD CONFIRM</label
                   >
                   <input
-                    type="text"
                     id="confirmPassword"
                     class="form-control"
+                    type="password"
                   /><br />
                 </div>
               </div>
@@ -103,7 +106,12 @@
           </div>
 
           <div class="bottomContainer flex-column">
-            <button type="button" class="btn btn-success">
+            <button
+              type="submit"
+              form="signUp"
+              value="Create Account"
+              class="btn btn-success"
+            >
               Create Account
             </button>
             <br />
