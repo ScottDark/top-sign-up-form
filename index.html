@@ -13,6 +13,7 @@
     />
 
     <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -55,7 +56,7 @@
           <div class="midContainer shadow-sm p-3 mb-5 bg-body-tertiary rounded">
             <h3>Let's do this!</h3>
             <br />
-            <form action="GET" id="signUp">
+            <form action="" id="signUp">
               <div class="row">
                 <div class="col">
                   <label for="firstname" class="form-label">FIRST NAME</label>
@@ -71,11 +72,8 @@
                   <br />
 
                   <label for="password " class="form-label">PASSWORD</label>
-                  <input
-                    type="password"
-                    id="password"
-                    class="form-control"
-                  /><br />
+                  <input type="password" id="password" class="form-control" />
+                  <div class="invalid-feedback">* Passwords do not match</div>
                 </div>
 
                 <div class="col">
@@ -113,7 +111,7 @@
               type="submit"
               form="signUp"
               value="Create Account"
-              class="btn btn-success"
+              class="createAccount btn btn-success"
             >
               Create Account
             </button>
